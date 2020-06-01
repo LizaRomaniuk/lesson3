@@ -1,0 +1,110 @@
+body {
+    background: #f9f9f9;
+}
+.wrapper{
+    width: 1060px;
+    height: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: white;
+    border:1px solid #e1e1e1;
+}
+.logo {
+    display: block;
+    width: 145px;
+    margin-bottom: 42px;
+}
+.menu {
+    width: 964px;
+    height: 40px;
+    background-color: #545454;
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    list-style: none;
+    overflow: hidden;
+    margin: 0px;
+    padding-left: 0px;
+    margin-bottom: 40px;
+    align-items: center;
+}
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    float: left;
+    padding-left: 25px;
+    padding-right: 90px;
+}
+.navigation-menu {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    list-style: none;
+    margin: 0px;
+    padding-left: 0px;
+    align-items: center;
+}
+.navigation-menu li {
+    border: 1px solid #c8c8c8;
+    border-bottom: none; 
+    width: 240px;
+    height: 39px;
+}
+.navigation-menu li:last-child {
+    border-bottom: 1px solid #c8c8c8;
+}
+.navigation-menu a {
+    text-decoration: none;
+    color: #656363;
+    padding-left: 25px;
+    line-height: 41px;
+}
+.main {
+    width: 672px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+    margin: 40px 0px;
+}
+.image {
+    border: 1px solid #c8c8c8;
+    display: flex;
+    justify-content: center;
+    padding: 50px 100px 50px 100px;
+}
+p {
+    display: flex;
+    flex-direction: column;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13.33px;
+    padding: 40px 25px 0px 25px;
+    margin: auto;
+}
+.footer {
+    width: 964px;
+    height: 40px;
+    background-color: #e1e1e1;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    list-style: none;
+    margin: 0px;
+    padding-left: 0px;
+    align-items: center;
+    display: inline-block;
+}
+.footer li{
+    line-height: 40px;
+    display: inline-block;
+}
+.footer a {
+    text-decoration: none;
+    color: #2c2c2c;
+    float: left;
+    padding: 0 92px 0 25px;
+}
+.copy-right{
+    float: right;
+    padding-right: 27px;
+}
